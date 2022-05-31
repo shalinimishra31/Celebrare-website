@@ -1,0 +1,202 @@
+/* *{
+    background-color: black;
+} */
+.active{
+    color: black;
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.head{
+    color:black;
+    margin-left:2%;
+    font-family: 'Style Script', cursive;
+    font-size: 2rem;
+    text-decoration: none;
+    padding-right:100px;
+}
+.options{
+    margin-left: 12%;
+}
+.flexing{
+    display: flex;
+    flex-direction: row;
+    margin-left:15%;
+    margin-right: 10%;
+    width:70%;
+    height:20%;
+    padding-top:3%;
+    padding-left: 5%;
+    padding-right:5%;
+    padding-bottom: 2%;
+    border-color:gray;
+    border-width: 3px;
+    border-radius: 50px;
+    border-style: inset;
+    background-color: white;
+    margin-top:2%;
+    margin-bottom:2%;
+}
+.cardDetail{
+   font-size: 30px;
+   margin-bottom: 0px;
+   text-align: center;
+   padding-bottom:4%;
+}
+.price{
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+.data{
+    font-size: 15px;
+    margin-right: 4%;
+    width:300px;
+    text-align: center;
+    color:gray;
+} 
+.mainImg{
+    width:300px;
+    height:380px;
+    border-radius: 10px;
+}
+.detail{
+    margin-right:2% ;
+    margin-left:5%;
+    padding-top:10%;
+    font-family: 'Lobster', cursive;
+}
+.button{
+    border-radius: 15px;
+    padding-top:3%;
+    padding-bottom:3%;
+    padding-left:13%;
+    padding-right: 13%;
+    border:2px solid black;
+    background-color: black;
+    color:white;
+    font-family: 'Charm', cursive;
+    font-size: 25px;
+    margin-left:14%;
+}
+.strike{
+    font-size: 15px ;
+    font-family: 'Lobster', cursive;
+}
+.offer{
+    font-size:25px;
+    color:rgb(79, 219, 51);
+    padding-left:10%;
+    font-family: 'Lobster', cursive;
+}
+.digital{
+    border-top:2px solid gray;
+    border-left:2px solid gray;
+    border-right:2px solid gray;
+    margin-left:150px;
+    margin-right:150px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVlG6xs9aQok00IVvmUYjoogaqoFZh8txWMw&usqp=CAU");
+    width:80%;
+    border-radius: 80px;
+}
+.digitalCard{
+    color:white;
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+    text-align: center;
+    padding-top:2%;
+}
+h2{
+    text-align:center;
+    padding-top:10px;
+    font-size:2.4rem;
+}
+.container{
+    /* margin:40px auto; */
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    padding-bottom: 50px;
+}
+.card{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-left:2%;
+    padding-right:2%;
+    margin-left: 30px;
+    margin-right:30px;
+    padding-bottom:20px;
+    padding-top:10px;
+    border:2px solid black;
+}
+.cardImage{
+    width:50px;
+    height:50px;
+}
+h5{
+    font-size: 100px;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+h4{
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+}
+h5{
+    width:200px;
+}
+.features{
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+}
+@media only screen and (max-width:1200px)
+{
+    .flexing{
+        display: flex;
+        flex-direction: column;
+    }
+    .digital{
+        margin-left:0px;
+        padding-left:0px;
+        width:100%;
+        border-radius:40px;
+    }
+    .mainImg{
+        width:100%;
+        height:auto;
+        margin-top:1%;
+    }
+    .data{
+        font-size: 15px;
+        width:100%;
+        text-align: center;
+        color:gray;
+    }
+    .button{
+        font-size: 20px;
+    }
+    .container{
+        /* margin:40px auto; */
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        padding-bottom: 50px;
+        width:100%;
+    }
+    .card{
+        padding-top:20px;
+        display:flex;
+        flex-direction: row;
+    }
+    .navbar{
+        width:100%;
+    }
+    .cardImage{
+        width:40%;
+        height:auto;
+    }
+}
